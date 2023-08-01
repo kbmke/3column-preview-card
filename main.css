@@ -98,7 +98,7 @@ h6 {
 --buttonColor: hsl(0, 0%, 95%);
     /* Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
 font-size: 15px;
-font-family: 'Lexend Deca', sans-serif;
+
 }
 
 # __next {
@@ -118,7 +118,7 @@ display: flex;
 }
 
 .card {
-    width: 310px;
+    width: 290px;
           margin: 0px auto;
 }
 
@@ -135,16 +135,26 @@ border-top-right-radius: 10px;
      }
      .card3{
         background-color: var(--luxuryBG);
-
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
      }
      .header {
         text-transform: uppercase;
        font-family: 'Big Shoulders Display', cursive;
+       padding: 0 30px;
+         color: var(--heading);
+         font-size: 45px;
      }
 
-     .heading{
-        color: var(--heading);
+     .para {
+        padding: 25px 30px;
+        font-family: 'Lexend Deca', sans-serif;
+        color: var(--para);
      }
+
+.icon {
+    padding: 35px 35px;
+}
  }
    .attribution {
         font-size: 11px;
