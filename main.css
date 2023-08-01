@@ -105,21 +105,43 @@ font-family: 'Lexend Deca', sans-serif;
 
   isolation: isolate;
 }
-
+.rel {
+    position: relative;
+}
  @media only screen and (min-width: 375px) and (max-width: 769px) {
      /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
+#everthing-box {
+    width: 310px;
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.card {
+    width: 310px;
+          margin: 0px auto;
+}
+
      .card1{
         background-color: var(--sedanBG);
-     }
+        color: var(--para);
+
+             }
      .card2 {
         background-color: var(--suvBG);
+          color: var(--para);
      }
      .card3{
         background-color: var(--luxuryBG);
+
      }
      .header {
         text-transform: uppercase;
        font-family: 'Big Shoulders Display', cursive;
+     }
+
+     .heading{
+        color: var(--heading);
      }
  }
    .attribution {
