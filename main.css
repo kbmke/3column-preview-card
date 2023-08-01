@@ -125,7 +125,9 @@ display: flex;
      .card1{
         background-color: var(--sedanBG);
         color: var(--para);
-
+        margin-top: 50px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
              }
      .card2 {
         background-color: var(--suvBG);
