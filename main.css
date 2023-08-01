@@ -98,7 +98,6 @@ h6 {
 --buttonColor: hsl(0, 0%, 95%);
     /* Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
 font-size: 15px;
-   font-family: 'Big Shoulders Display', cursive;
 font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -109,6 +108,19 @@ font-family: 'Lexend Deca', sans-serif;
 
  @media only screen and (min-width: 375px) and (max-width: 769px) {
      /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
+     .card1{
+        background-color: var(--sedanBG);
+     }
+     .card2 {
+        background-color: var(--suvBG);
+     }
+     .card3{
+        background-color: var(--luxuryBG);
+     }
+     .header {
+        text-transform: uppercase;
+       font-family: 'Big Shoulders Display', cursive;
+     }
  }
    .attribution {
         font-size: 11px;
