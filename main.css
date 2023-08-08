@@ -16,11 +16,13 @@
 }
 
 /*
-  2. Remove default margin
+  2. Remove default margin and padding
+
 */
 
 * {
   margin: 0;
+  padding: 0;
 }
 
 /*
@@ -110,7 +112,7 @@ __next {
   position: relative;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 769px) {
+@media only screen and (min-width: 375px) and (max-width: 669px) {
 
   /* ABOVE CHANGES SETTINGS AT 375px SCREEN SIZE TO 769px SCREEN SIZE*/
   #everything-box {
@@ -193,13 +195,13 @@ width: 125px;
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
-  @media only screen and (min-width: 768px) and (max-width: 1440px) {
+  @media only screen and (min-width: 668px) and (max-width: 1440px) {
 
      /* ABOVE CHANGES SETTINGS AT 768px SCREEN SIZE TO 1023px SCREEN SIZE*/
 
     #everything-box {
         width: 65%;
-        height: 82%;
+        height: 100%;
     display: flex;
       flex-direction: row;
     margin: 0 auto;
@@ -214,16 +216,17 @@ width: 125px;
     text-transform: uppercase;
     font-family: 'Big Shoulders Display', cursive;
     color: var(--heading);
-    font-size: 45px;
-    padding: 16px 0;
+    font-size: 30px;
+    padding: 15px 0;
   }
 
   .para {
-    padding: 8px 0;
+    padding-top: 13px;
+    padding-bottom: 65px;
     font-family: 'Lexend Deca', sans-serif;
     color: var(--para);
     font-size: 13px;
-    padding-bottom: 50px;
+
   }
 
   .card1 {
@@ -240,6 +243,7 @@ width: 125px;
   }
          .button2 {
       color: var(--button2txt);
+      /* margin-top: 5px; */
          }
 
   .card3 {
@@ -262,7 +266,7 @@ padding: 9px;
 width: 125px;
     font-family: 'Lexend Deca', sans-serif;
   /* display: flex; */
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 
  }
 
